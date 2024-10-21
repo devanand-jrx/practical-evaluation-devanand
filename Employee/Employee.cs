@@ -13,10 +13,17 @@ namespace PracticalEvaluationDevanand.Employee
             var grosspay = 0;
 
             Console.WriteLine("Enter the hourly rate in Rs. ");
-            var rate = Convert.ToInt32(Console.ReadLine());
-
+            bool isRate = int.TryParse(Console.ReadLine(), out var rate);
+            if (!isRate)
+            {
+                Console.WriteLine("not a valid rate");
+            }
             Console.WriteLine("Enter the hours you worked");
-            var hours = Convert.ToInt32(Console.ReadLine());
+            bool isHours = int.TryParse(Console.ReadLine(), out var hours);
+            if (!isHours)
+            {
+                Console.WriteLine("not a valid hour");
+            }
 
             var pay = hours * rate;
 
