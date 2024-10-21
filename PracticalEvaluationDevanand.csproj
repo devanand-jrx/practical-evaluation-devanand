@@ -54,6 +54,8 @@
     <Compile Include="Task2\BankAccount.cs" />
     <Compile Include="Task3\GradeManager.cs" />
     <Compile Include="Task4\TextProcessing.cs" />
+    <Compile Include="Task5\Event.cs" />
+    <Compile Include="Task5\EventScheduler.cs" />
     <Compile Include="Task7\Debugging.cs" />
     <Compile Include="Task9\Task.cs" />
     <Compile Include="Task9\TaskDuration.cs" />
@@ -64,7 +66,6 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Task5\" />
     <Folder Include="Task6\" />
     <Folder Include="Task8\" />
   </ItemGroup>
