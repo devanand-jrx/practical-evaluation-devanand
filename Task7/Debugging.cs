@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace PracticalEvaluationDevanand.Task7
 {
-    internal class Debugging
+    public class Debugging
     {
         public class Calculator
         {
@@ -17,6 +17,7 @@ namespace PracticalEvaluationDevanand.Task7
                     Console.WriteLine("Divider cannot be zero.");
                     return 0;
                 }
+
                 return a / b;
             }
 
@@ -29,11 +30,13 @@ namespace PracticalEvaluationDevanand.Task7
                 }
             }
         }
-        static void Main(string[] args)
-        {
-            var processor = new Calculator();
-            int[] numbers = { 0, 20, 30, 40, 50 };
-            processor.ProcessNumbers(numbers);
-        }
     }
 }
+//        static void Main(string[] args)
+//        {
+//            var processor = new Calculator();
+//            int[] numbers = { 10, 20, 30, 40, 50 };
+//            processor.ProcessNumbers(numbers);
+//        }
+//    }
+//}

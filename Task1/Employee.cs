@@ -1,10 +1,6 @@
 ﻿//using System;
-//using System.Collections.Generic;
-//using System.Linq;
-//using System.Text;
-//using System.Threading.Tasks;
 
-//namespace PracticalEvaluationDevanand.Employee
+//namespace PracticalEvaluationDevanand.Task1
 //{
 //    internal class Employee
 //    {
@@ -44,11 +40,6 @@
 
 //            var netPay = pay - tax;
 //            Console.WriteLine($"net pay is {netPay}");
-
-
 //        }
-
-
-
 //    }
 //}
