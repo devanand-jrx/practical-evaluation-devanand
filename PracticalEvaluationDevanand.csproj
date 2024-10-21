@@ -49,10 +49,13 @@
     <Compile Include="Task2\BankAccount.cs" />
     <Compile Include="Task3\GradeManager.cs" />
     <Compile Include="Task4\TextProcessing.cs" />
+    <Compile Include="Task7\Debugging.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="Task5\" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
