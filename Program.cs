@@ -1,15 +1,15 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿//using System;
+//using System.Collections.Generic;
+//using System.Linq;
+//using System.Text;
+//using System.Threading.Tasks;
 
-namespace PracticalEvaluationDevanand
-{
-    internal class Program
-    {
-        static void Main(string[] args)
-        {
-        }
-    }
-}
+//namespace PracticalEvaluationDevanand
+//{
+//    internal class Program
+//    {
+//        static void Main(string[] args)
+//        {
+//        }
+//    }
+//}
