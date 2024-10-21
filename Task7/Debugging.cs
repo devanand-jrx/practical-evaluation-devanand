@@ -29,14 +29,13 @@ namespace PracticalEvaluationDevanand.Task7
                     Console.WriteLine("Result: " + result);
                 }
             }
+            static void Main(string[] args)
+            {
+                var processor = new Calculator();
+                int[] numbers = { 10, 20, 30, 40, 50 };
+                processor.ProcessNumbers(numbers);
+            }
         }
     }
 }
-//        static void Main(string[] args)
-//        {
-//            var processor = new Calculator();
-//            int[] numbers = { 10, 20, 30, 40, 50 };
-//            processor.ProcessNumbers(numbers);
-//        }
-//    }
-//}
+

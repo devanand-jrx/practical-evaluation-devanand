@@ -71,27 +71,26 @@ namespace PracticalEvaluationDevanand.Task4
             }
             return reversedText.ToString().Trim();
         }
-        //main method written in program.cs also.
 
-        //static void Main(string[] args)
-        //{
-        //    Console.WriteLine("Enter a paragraph of text:");
-        //    string paragraph = Console.ReadLine();
-        //    string summarizedText = SummarizeText(paragraph);
-        //    Console.WriteLine("Summarized text:");
-        //    Console.WriteLine(summarizedText);
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Enter a paragraph of text:");
+            string paragraph = Console.ReadLine();
+            string summarizedText = SummarizeText(paragraph);
+            Console.WriteLine("Summarized text:");
+            Console.WriteLine(summarizedText);
 
-        //    int wordCount = CountWords(paragraph);
-        //    int sentenceCount = CountSentences(paragraph);
-        //    int characterCount = CountCharacters(paragraph);
-        //    Console.WriteLine("Number of words: " + wordCount);
-        //    Console.WriteLine("Number of sentences: " + sentenceCount);
-        //    Console.WriteLine("Number of characters: " + characterCount);
-        //    string longestWord = FindLongestWord(paragraph);
-        //    Console.WriteLine("Longest word: " + longestWord);
-        //    string reversedParagraph = ReverseWords(paragraph);
-        //    Console.WriteLine("Reversed paragraph: " + reversedParagraph);
-        //}
+            int wordCount = CountWords(paragraph);
+            int sentenceCount = CountSentences(paragraph);
+            int characterCount = CountCharacters(paragraph);
+            Console.WriteLine("Number of words: " + wordCount);
+            Console.WriteLine("Number of sentences: " + sentenceCount);
+            Console.WriteLine("Number of characters: " + characterCount);
+            string longestWord = FindLongestWord(paragraph);
+            Console.WriteLine("Longest word: " + longestWord);
+            string reversedParagraph = ReverseWords(paragraph);
+            Console.WriteLine("Reversed paragraph: " + reversedParagraph);
+        }
 
     }
 }

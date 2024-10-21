@@ -57,34 +57,33 @@ namespace PracticalEvaluationDevanand.Task2
             Console.WriteLine("Balance: Rs." + balance);
         }
 
-        //main method written in program.cs also.
 
-        //public static void Main(string[] args)
-        //{
-        //    Console.WriteLine("Create a Bank Account:");
-        //    BankAccount EDSTEM123AXIS = new BankAccount("EDSTEM123AXIS", 0, "DEVANAND");
+        public static void Main(string[] args)
+        {
+            Console.WriteLine("Create a Bank Account:");
+            BankAccount EDSTEM123AXIS = new BankAccount("EDSTEM123AXIS", 0, "DEVANAND");
 
-        //    EDSTEM123AXIS.DisplayAccountDetails();
+            EDSTEM123AXIS.DisplayAccountDetails();
 
-        //    Console.WriteLine("Enter the deposit amount to EDSTEM123AXIS:");
-        //    double depositAmount;
-        //    while (!double.TryParse(Console.ReadLine(), out depositAmount) || depositAmount <= 0)
-        //    {
-        //        Console.WriteLine("Please enter an amount greater than 0:");
-        //    }
-        //    EDSTEM123AXIS.Deposit(depositAmount);
-        //    Console.WriteLine("New balance Rs." + depositAmount + ": Rs." + EDSTEM123AXIS.Balance);
+            Console.WriteLine("Enter the deposit amount to EDSTEM123AXIS:");
+            double depositAmount;
+            while (!double.TryParse(Console.ReadLine(), out depositAmount) || depositAmount <= 0)
+            {
+                Console.WriteLine("Please enter an amount greater than 0:");
+            }
+            EDSTEM123AXIS.Deposit(depositAmount);
+            Console.WriteLine("New balance Rs." + depositAmount + ": Rs." + EDSTEM123AXIS.Balance);
 
-        //    Console.WriteLine("Enter amount to withdraw from EDSTEM123AXIS:");
-        //    double withdrawAmount;
-        //    while (!double.TryParse(Console.ReadLine(), out withdrawAmount) || withdrawAmount <= 0)
-        //    {
-        //        Console.WriteLine("Please enter amount greater than 0:");
-        //    }
+            Console.WriteLine("Enter amount to withdraw from EDSTEM123AXIS:");
+            double withdrawAmount;
+            while (!double.TryParse(Console.ReadLine(), out withdrawAmount) || withdrawAmount <= 0)
+            {
+                Console.WriteLine("Please enter amount greater than 0:");
+            }
 
-        //    EDSTEM123AXIS.Withdraw(withdrawAmount);
-        //    Console.WriteLine("New balance Rs." + withdrawAmount + ": Rs." + EDSTEM123AXIS.Balance);
-        //}
+            EDSTEM123AXIS.Withdraw(withdrawAmount);
+            Console.WriteLine("New balance Rs." + withdrawAmount + ": Rs." + EDSTEM123AXIS.Balance);
+        }
     }
 
 }
