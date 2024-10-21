@@ -34,7 +34,7 @@
 //            else if (hours > 40)
 //            {
 //                var overHours = hours - 40;
-//                pay = (int)(pay +  (overHours * rate * 0.5)); 
+//                pay = (int)(pay + (overHours * rate * 0.5));
 //                Console.WriteLine($"Great! you worked a lot, Total gross pay is Rs.{pay}");
 //            }
 
